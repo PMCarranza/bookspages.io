@@ -1,0 +1,131 @@
+body{
+    background-image: url("../images/pexels-magda-ehlers-985266.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    z-index: -5;
+}
+
+
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+}
+
+.fondo{
+  height: 50vh;
+  background-color: rgba(255, 255, 255, .5);
+  grid-column: 2/8;
+  grid-row: 1/40;
+  z-index: -2;
+}
+
+
+.home{
+  padding:5%;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.about{
+  padding:5%;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.plays{
+  padding:5%;
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.contact{
+  padding: 5%;
+  grid-column: 6;
+  grid-row: 2;
+}
+
+.header{
+  padding: 5%;
+  grid-column: 3/7;
+  grid-row: 5;
+}
+
+.sub-header{
+  padding: 5%;
+  grid-column: 3/7;
+  grid-row: 8;
+}
+
+
+
+
+/* .home{
+  padding: 6%;
+  grid-area: home;
+}
+
+.about{
+  padding: 6%;
+  grid-area: about;
+}
+
+.plays{
+  padding: 6%;
+  grid-area: plays;
+}
+
+.contact{
+  padding: 6%;
+  grid-area: contact;
+}
+
+.header{
+  grid-area: header;
+}
+
+.sub-header{
+  grid-area: sub-header;
+} */
+
+
+
+/* .container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 12.5% 12.5% 12.5% 12.5% 25%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ". home about plays contact ."
+    ". . header header . ."
+    ". . sub-header sub-header . ."
+    ;
+} */
+
+/* .wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 1vw;
+    max-height:40em;
+    height: 40em;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav{
+    padding: 2vw;
+    background-color: tan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } */
+
+  h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+  }
