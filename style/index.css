@@ -1,131 +1,60 @@
+/* Created with https://www.css-gradient.com */
 body{
-    background-image: url("../images/pexels-magda-ehlers-985266.jpg");
-    background-size: cover;
-    margin: 0 auto;
-    z-index: -5;
-}
-
-
-.container {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(8, 12.5%);
-}
-
-.fondo{
-  height: 50vh;
-  background-color: rgba(255, 255, 255, .5);
-  grid-column: 2/8;
-  grid-row: 1/40;
-  z-index: -2;
-}
-
-
-.home{
-  padding:5%;
-  grid-column: 3;
-  grid-row: 2;
-}
-
-.about{
-  padding:5%;
-  grid-column: 4;
-  grid-row: 2;
-}
-
-.plays{
-  padding:5%;
-  grid-column: 5;
-  grid-row: 2;
-}
-
-.contact{
-  padding: 5%;
-  grid-column: 6;
-  grid-row: 2;
-}
-
-.header{
-  padding: 5%;
-  grid-column: 3/7;
-  grid-row: 5;
-}
-
-.sub-header{
-  padding: 5%;
-  grid-column: 3/7;
-  grid-row: 8;
-}
-
-
-
-
-/* .home{
-  padding: 6%;
-  grid-area: home;
-}
-
-.about{
-  padding: 6%;
-  grid-area: about;
-}
-
-.plays{
-  padding: 6%;
-  grid-area: plays;
-}
-
-.contact{
-  padding: 6%;
-  grid-area: contact;
-}
-
-.header{
-  grid-area: header;
-}
-
-.sub-header{
-  grid-area: sub-header;
-} */
-
-
-
-/* .container {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 25% 12.5% 12.5% 12.5% 12.5% 25%;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    ". home about plays contact ."
-    ". . header header . ."
-    ". . sub-header sub-header . ."
-    ;
-} */
-
-/* .wrapper{
-    max-width: 80%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, .75);
-    border-radius: 1vw;
-    max-height:40em;
-    height: 40em;
+  background: #8BF7CC;
+  background: -webkit-radial-gradient(top left, #8BF7CC, #5C6EB9);
+  background: -moz-radial-gradient(top left, #8BF7CC, #5C6EB9);
+  background: radial-gradient(to bottom right, #8BF7CC, #5C6EB9);
+  height: 100vh;
   }
 
-  .info{
+  .container{
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
-  nav{
+  svg{
+    position: absolute;
+  }
+
+  .nav{
+    font-family: elza,sans-serif;
+    font-weight: bold;
+    z-index: 2;
+    max-width: 60%;
     padding: 2vw;
-    background-color: tan;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 0 10% 20%;
+  }
+
+  h1{
+    font-family: tamarillo-jf, sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    font-size: 12vw;
+    margin-bottom: 2.5%;
+  }
+
+  h2{
+    font-family: elza,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3vw;
+    margin-bottom: 10%;
+  }
+
+  .social{
+    max-width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  } */
+    margin-left: 20%;
+  }
 
-  h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3vw;
+  a.fa{
+    text-decoration: none;
+    font-size: 4vw;
   }
