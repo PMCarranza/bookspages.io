@@ -1,0 +1,56 @@
+body{
+    background-image: url(../images/parchment.webp);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d4b37f;
+    font-family: elza,sans-serif;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  svg{
+    position: absolute;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  .nav{
+    font-family: elza,sans-serif;
+    font-weight: bold;
+    z-index: 2;
+    max-width: 60%;
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 10% 20%;
+  }
+
+  h1{
+    font-family: tamarillo-jf, sans-serif;
+    font-size: 12vw;
+    margin-bottom: 2.5%;
+  }
+
+  h2{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3vw;
+    margin-bottom: 5%;
+  }
+
+  .info{
+    font-size: 1.25vw;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+  }
