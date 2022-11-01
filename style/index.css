@@ -1,10 +1,18 @@
 /* Created with https://www.css-gradient.com */
-body{
+/* body{
   background: #8BF7CC;
   background: -webkit-radial-gradient(top left, #8BF7CC, #5C6EB9);
   background: -moz-radial-gradient(top left, #8BF7CC, #5C6EB9);
   background: radial-gradient(to bottom right, #8BF7CC, #5C6EB9);
   height: 100vh;
+  } */
+
+  body{
+    background-image: url(../images/parchment.webp);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d4b37f;
   }
 
   .container{
@@ -15,6 +23,10 @@ body{
 
   svg{
     position: absolute;
+  }
+  
+  a{
+    text-decoration: none;
   }
 
   .nav{
@@ -32,8 +44,6 @@ body{
 
   h1{
     font-family: tamarillo-jf, sans-serif;
-    /* font-weight: 400; */
-    font-style: normal;
     font-size: 12vw;
     margin-bottom: 2.5%;
   }
