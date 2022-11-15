@@ -42,7 +42,7 @@
   }
 
   .photo{
-    width: 150%;
+    width: 100%;
   }
 
   img{
@@ -54,6 +54,34 @@
   }
 
   p{
-    font-size: 1.25em;
+    font-size: 1em;
     margin-bottom: 5%;
+  }
+
+  @media only screen and (max-width: 660px) {
+    .info{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: 95%;
+    }
+
+    .photo{
+      width: 33%;
+      margin: 0 auto;
+    }
+  
+    img{
+      width: 100%;
+    }
+
+    .text{
+      margin-top: 2.5%;
+    }
+
+    p{
+      font-size: .75em;
+      margin-bottom: 5%;
+    }
+
   }
